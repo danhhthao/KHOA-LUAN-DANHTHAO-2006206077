@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Web thương mại</title>
 
-        <!-- Resset Css -->
+        <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- Embet font -->
@@ -16,14 +16,24 @@
             rel="stylesheet"
         />
 
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
         <main>
             <div class="main">
-                <div class="content">
-                    <header class="header">
+                <header class="header">
+                    <div class="content">
+                        <!-- header-row1 -->
                         <div class="header-row1">
                             <div class="column-1">
                                 <a href="#!" class="mail"
@@ -60,8 +70,115 @@
                                 </div>
                             </div>
                         </div>
-                    </header>
-                </div>
+
+                        <!-- header-row2 -->
+                        <div class="header-row2">
+                            <a href="#">
+                                <img
+                                    src="./assets/img/logo1.jpg"
+                                    alt=""
+                                    class="logo"
+                                />
+                            </a>
+                            <div class="column-1">
+                                <select name="list" id="list" class="list">
+                                    <option value="">Sản phẩm</option>
+                                    <option value="">Tin Tức</option>
+                                </select>
+                                <div class="topnav">
+                                    <input
+                                        type="text"
+                                        placeholder="Tìm kiếm..."
+                                    />
+                                    <a href="#!" class="btn">
+                                        <img
+                                            src="./assets/img/search.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="column-2">
+                                <div class="account Format">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/user.png"
+                                            alt=""
+                                        />
+                                        <p class="title">Tài khoản</p>
+                                    </a>
+                                    <ul class="list">
+                                        <li><a href="#!">Đăng nhập</a></li>
+                                        <li><a href="#!">Đăng ký</a></li>
+                                    </ul>
+                                </div>
+                                <div class="track-order Format">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/truck.png"
+                                            alt=""
+                                        />
+                                        <p class="title">Đơn hàng</p>
+                                    </a>
+                                </div>
+                                <div class="location Format">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/img/location.png"
+                                            alt=""
+                                        />
+                                        <p class="title">Vị trí cửa hàng</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- header-row3 -->
+                        <div class="header-row3">
+                            <a href="#!" class="link"
+                                >Đi nhanh đến: Nồi - bộ nồi nấu ăn, Máy xay -
+                                máy ép trái cây, Lò - vỉ nướng - lò vi sóng, Dao
+                                - kéo - thớt</a
+                            >
+                            <p class="hotline">
+                                <i class="fa-solid fa-phone"></i>
+                                <span
+                                    >Hotline: (+84) 7308 6680 - 1900 6680</span
+                                >
+                            </p>
+                        </div>
+
+                        <!-- header-row4 -->
+                        <div class="header-row4">
+                            <div class="main-menu">
+                                <i class="fa-solid fa-bars"></i>
+                                <span>Sản phẩm</span>
+                            </div>
+                            <nav class="nav">
+                                <ul class="list">
+                                    <li class="list-item">
+                                        <a href="#!">Trang chủ</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#!">Giới thiệu</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#!">Sản phẩm</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#!">Tin tức</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#!">Liên hệ</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#!">Khác</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
             </div>
         </main>
     </body>
