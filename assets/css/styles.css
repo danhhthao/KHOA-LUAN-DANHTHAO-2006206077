@@ -9,11 +9,13 @@ html {
 body {
     font-size: 1.5rem;
     line-height: 1.5;
+    color: #333;
 }
 
 html,
 body {
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .content {
@@ -1468,3 +1470,301 @@ a {
 }
 
 /* ===== order ===== */
+.product-detail .content {
+    border: 1px solid #ddd;
+    display: flex;
+    min-height: 700px;
+    margin-top: 30px;
+}
+
+.header-product {
+    height: 200px;
+    position: relative;
+}
+
+.header-product .img-header-product {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    background-repeat: no-repeat;
+}
+
+.header-product h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product-detail-col1 {
+    width: 75%;
+    border: 1px solid red;
+}
+
+.product-detail-col1 .top-detail-product {
+    display: flex;
+    max-height: 500px;
+    border: 1px solid blue;
+}
+
+.product-detail-col1 .box-slide-images-detail {
+    width: 45%;
+    height: 500px;
+}
+
+.product-detail-col1 .thub-image {
+    width: 10%;
+    height: 500px;
+}
+
+.product-detail-col1 .thub-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-detail-col1 .box-slide-images-detail .img-view-images-large {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-detail-col1 .Product-information {
+    width: 45%;
+    height: 500px;
+    padding: 0 15px;
+}
+
+.product-detail-col1 .Product-information .title-name-product {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.product-detail-col1 .Product-information > .a-row {
+    margin: 15px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    gap: 20px;
+}
+
+.product-detail-col1 .Product-information > .a-row .title-id-product,
+.product-detail-col1 .Product-information .brand-name {
+    color: #888;
+    font-weight: 400;
+}
+
+.product-detail-col1 .Product-information > .a-row .id-product {
+    font-weight: 700;
+}
+
+.product-detail-col1 .Product-information > .a-row .selection a {
+    color: #337abe;
+    font-weight: 700;
+}
+
+.product-detail-col1 .Product-information .price-detail-page .price-main {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #e01222;
+}
+
+.product-detail-col1 .Product-information .price-detail-page .dvt {
+    font-size: 1.9rem;
+    color: #e01222;
+    text-decoration: underline;
+}
+
+.product-detail-col1 .Product-information .description-product-detail {
+    margin-top: 15px;
+}
+
+.product-detail-col1 .Product-information .description-product-detail p {
+    position: relative;
+    padding-left: 21px;
+}
+
+.product-detail-col1
+    .Product-information
+    .description-product-detail
+    p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.product-detail-col1 .Product-information .product-available {
+    margin-top: 15px;
+}
+
+.product-detail-col1 .Product-information .product-available .a-row {
+    margin-top: 5px;
+}
+
+.product-detail-col1
+    .Product-information
+    .product-available
+    .a-row
+    .name-product-available {
+    color: #888;
+    font-weight: 400;
+}
+
+.product-detail-col1
+    .Product-information
+    .product-available
+    .a-row
+    .value-product-available {
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.product-detail-col1 .Product-information .btn-muahang {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .btn-default {
+    background: #adadad;
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .btn-default:hover {
+    color: white;
+    background: red;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .input-group {
+    border: 1px solid #ccc;
+    width: 111px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .input-group .btn-tru,
+.product-detail-col1 .Product-information .btn-muahang .input-group .btn-cong {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 7px;
+}
+
+.product-detail-col1
+    .Product-information
+    .btn-muahang
+    .input-group
+    .btn-tru:hover,
+.product-detail-col1
+    .Product-information
+    .btn-muahang
+    .input-group
+    .btn-cong:hover {
+    background: red;
+    color: white;
+}
+
+.product-detail-col1
+    .Product-information
+    .btn-muahang
+    .input-group
+    .num-quantity {
+    border: none;
+    height: 20px;
+    width: 55px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.product-detail-col1
+    .Product-information
+    .btn-muahang
+    .input-group
+    .num-quantity:focus {
+    outline: none;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .btn-cart {
+    background: #fa3434;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.product-detail-col1 .Product-information .btn-muahang .btn-cart:hover {
+    background: red;
+}
+
+.product-detail-col1 .detail-content .navbar {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.product-detail-col1 .detail-content .navbar .navItem a {
+    padding: 14px 20px;
+    background: #ebebeb;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.product-detail-col1 .detail-content .navbar .navItem a:hover {
+    color: red;
+}
+
+.product-detail-col1 .detail-content .tab-content {
+    padding: 30px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.product-detail-col1 .sp_cungLoai h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.product-detail-col1 .sp_cungLoai h2::after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    background: #e01222;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    border-radius: 2px;
+}
+
+.product-detail-col1 .Product-information .product-detail-col2 {
+    width: 25%;
+    border: 1px solid blue;
+}

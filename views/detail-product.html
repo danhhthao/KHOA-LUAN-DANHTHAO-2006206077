@@ -4,23 +4,207 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Chi tiết sản phẩm</title>
+
+        <!-- Reset Css -->
+        <link rel="stylesheet" href="../assets/css/reset.css" />
+
+        <!-- Embet font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="..//assets/css/styles.css" />
     </head>
     <body>
-        <div class="detail-product">
+        <div class="product-detail">
             <div class="header-product">
                 <img
+                    class="img-header-product"
                     src="../assets/img/custom-banner-item-block-index-id-3.jpg"
                     alt=""
                 />
+                <h2 class="title">chi tiết sản phẩm</h2>
             </div>
-            <div class="content-product">
-                <div class="content-column-1">
-                    <div class="column-1">
-                        <img src="" alt="" />
+            <div class="content">
+                <div class="product-detail-col1">
+                    <div class="top-detail-product">
+                        <div class="thub-image">
+                            <img
+                                class="img-view-images-large"
+                                src="../assets/img/lo-vi-song.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-view-images-large"
+                                src="../assets/img/lo-vi-song.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-view-images-large"
+                                src="../assets/img/lo-vi-song.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="box-slide-images-detail">
+                            <img
+                                class="img-view-images-large"
+                                src="../assets/img/lo-vi-song.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="Product-information">
+                            <h1 class="title-name-product">
+                                Lò vi sóng điện tử có nướng Sharp R-G752FVN-S
+                                27L (Đen - Bạc, Trung Quốc, Thép không rỉ)
+                            </h1>
+                            <ul class="a-row">
+                                <li>
+                                    <span class="title-id-product"
+                                        >Mã sản phẩm:</span
+                                    >
+                                    <span class="id-product">NH_00467</span>
+                                </li>
+                                <li>
+                                    <span class="brand-name">Thương hiệu:</span>
+                                    <span class="selection"
+                                        ><a href="#!">Sharp</a></span
+                                    >
+                                </li>
+                            </ul>
+                            <div class="price-detail-page">
+                                <span class="price-main">4,370,000</span>
+                                <span class="dvt"> đ </span>
+                            </div>
+                            <div class="description-product-detail">
+                                <p>
+                                    Mặt trong khoang lò được thiết kế dạng kim
+                                    cương
+                                </p>
+                                <p>
+                                    Lò không có đĩa xoay giúp tăng diện tích
+                                    dùng
+                                </p>
+                                <p>
+                                    Tích hợp chức năng khóa trẻ em và hẹn giờ
+                                    tiện dụng
+                                </p>
+                            </div>
+                            <div class="product-available">
+                                <div class="a-row">
+                                    <span class="name-product-available"
+                                        >Màu sắc:</span
+                                    >
+                                    <span class="value-product-available"
+                                        >Đen - Bạc</span
+                                    >
+                                </div>
+                                <div class="a-row">
+                                    <span class="name-product-available"
+                                        >Chất Liệu:</span
+                                    >
+                                    <span class="value-product-available"
+                                        >Thép không rỉ</span
+                                    >
+                                </div>
+                                <div class="a-row">
+                                    <span class="name-product-available"
+                                        >Xuất xứ:</span
+                                    >
+                                    <span class="value-product-available"
+                                        >Trung Quốc</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="btn-muahang">
+                                <a href="#!" class="btn-default"
+                                    ><i class="fa-solid fa-arrows-rotate"></i
+                                ></a>
+                                <div class="input-group">
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn-tru">
+                                            -
+                                        </button>
+                                    </div>
+                                    <input
+                                        type="text"
+                                        value="1"
+                                        min="1"
+                                        placeholder="Số lượng"
+                                        class="num-quantity"
+                                    />
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn-cong">
+                                            +
+                                        </button>
+                                    </div>
+                                </div>
+                                <a href="#!" class="btn-cart"
+                                    ><i class="fa-solid fa-cart-shopping"></i>
+                                    Thêm vào giỏ hàng</a
+                                >
+                            </div>
+                        </div>
                     </div>
-                    <div class="column-2"></div>
+                    <div class="detail-content">
+                        <ul class="navbar">
+                            <li class="navItem">
+                                <a href="#!">Mô tả</a>
+                            </li>
+                            <li class="navItem">
+                                <a href="#!">Điểm nổi bật</a>
+                            </li>
+                            <li class="navItem">
+                                <a href="#!">Điều kiện</a>
+                            </li>
+                            <li class="navItem">
+                                <a href="#!">Bình luận</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <p>
+                                Lò vi sóng điện tử có nướng Sharp R-G752FVN-S
+                                27L (Bạc) sở hữu thiết kế hiện đại và tiện dụng,
+                                dung tích lò 27L đáp ứng tốt hơn nhu cầu sử dụng
+                                của bạn.
+                            </p>
+                            <p>
+                                Mặt trong khoang lò được thiết kế đặt biệt dạng
+                                kim cương giúp phân tán vi sóng đều hơn, từ đó
+                                tăng cường hiệu quả nấu ăn lên 10%, rã đông
+                                nhanh hơn 5% và mức độ chín đều hơn 12%.
+                            </p>
+                            <p>
+                                Lò không trang bị đĩa xoay giúp tăng diện tích
+                                sử dụng, hiệu quả hệ thống phân tán vi sóng được
+                                nâng cao giúp cho thức ăn được hâm nóng một cách
+                                đơn giản, nhanh chóng hơn.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sp_cungLoai">
+                        <h2>sản phẩm cùng loại</h2>
+                        <div class="list-product-related">
+                            <div class="lisItem">
+                                <div class="img"></div>
+                            </div>
+                            <div class="info"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="content-column-2"></div>
+                <div class="product-detail-col2"></div>
             </div>
         </div>
     </body>
